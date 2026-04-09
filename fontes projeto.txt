@@ -1,1 +1,12 @@
 https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-da-prf
+
+https://streamlit.io/playground?example=geospatial
+
+https://hub.asimov.academy/blog/streamlit-guia-completo/#como-configurar-o-ambiente-do-streamlit%3f
+
+git init
+git remote add origin https://github.com/fdelfino93/transitoseguro.git
+git add .
+git commit -m ""
+git branch -M main
+git push -u origin main
