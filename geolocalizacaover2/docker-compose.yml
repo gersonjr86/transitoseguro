@@ -1,0 +1,11 @@
+services:
+  streamlit:
+    build:
+      context: .
+    container_name: mapa-acidentes-pr
+    environment:
+      ACIDENTES_CSV_PATH: /app/data/acidentes_pr_2025.csv
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
